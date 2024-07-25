@@ -1,6 +1,6 @@
 export const nqueen = async (n, queenPos = [], col, setQueenPos) => {
   console.log(queenPos.length, parseInt(n));
-  if (queenPos.length == parseInt(n)) {
+  if (queenPos.length === parseInt(n)) {
     console.log(queenPos);
     return { solved: true, queenPos: queenPos };
   }
@@ -36,10 +36,10 @@ const isUnderAttack = (newPos, queenPosition) => {
   const d1 = newPos.x - newPos.y;
   const d2 = newPos.x + newPos.y;
   return (
-    queenPosition.x == newPos.x ||
-    queenPosition.y == newPos.y ||
-    queenPosition.x + queenPosition.y == d2 ||
-    queenPosition.x - queenPosition.y == d1
+    queenPosition.x === newPos.x ||
+    queenPosition.y === newPos.y ||
+    queenPosition.x + queenPosition.y === d2 ||
+    queenPosition.x - queenPosition.y === d1
   );
 };
 function sleep(s) {
