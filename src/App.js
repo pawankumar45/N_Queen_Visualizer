@@ -36,7 +36,7 @@ function App() {
                 max="16"
                 value={count}
                 onChange={(v) => {
-                  console.log(v.target.value);
+                  // console.log(v.target.value);
                   setCount(v.target.value);
                 }}
               />

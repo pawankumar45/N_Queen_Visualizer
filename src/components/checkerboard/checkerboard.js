@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import _ from "lodash";
 import "./chessboard.css";
 
@@ -9,7 +8,7 @@ export const CheckerBoard = ({ size, queenPositions = [] }) => {
     let newRow = true;
     for (let j = 0; j <= size; j++) {
       let classNames = ["block"];
-      if (i == 0) {
+      if (i === 0) {
         classNames.push("chessColumnNumber");
         checkerBoard.push(
           <div className={classNames.join(" ")}>
