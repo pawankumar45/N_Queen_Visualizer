@@ -34,7 +34,7 @@ function App() {
                 type="number"
                 min="2"
                 max="16"
-                value="2"
+                value={count}
                 onChange={(v) => {
                   console.log(v.target.value);
                   setCount(v.target.value);
