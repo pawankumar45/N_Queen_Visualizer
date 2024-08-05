@@ -1,6 +1,14 @@
-# nqueen-backtracking-react
+                         # nqueen-backtracking-react
+
+Technologies/Frameworks use :Reactjs, JavaScript,Visualisation,chess-queens, Data-Structure.
+
 This is a react simulation of solving nqueen using backtracking algorithm.
 
-To set up this project just clone the project and do a **yarn init** and then issue **yarn start**
+Solved the n-queens puzzle by successfully placing N queens on an N x N chessboard.
 
-You can alternately view the nqueen simulation here: [NQueen Demo](https://the-buggy-coder.github.io/nqueen-backtracking-react/index.html) 
+Ensured non-attacking positions for queens, maintaining optimal placement and strategic arrangement.
+
+Given an integer N(user input),we will show all distinct solutions to the N-queens puzzle.
+
+Utilized Recursion and BackTracking in the design of this algorithm for optimal performance.
+
