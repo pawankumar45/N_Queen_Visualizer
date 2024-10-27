@@ -11,4 +11,4 @@ Ensured non-attacking positions for queens, maintaining optimal placement and st
 Given an integer N(user input),we will show all distinct solutions to the N-queens puzzle.
 
 Utilized Recursion and BackTracking in the design of this algorithm for optimal performance.
-
+[Project Link](https://n-queen-3v3.netlify.app)
