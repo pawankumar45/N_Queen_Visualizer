@@ -12,4 +12,4 @@ Given an integer N(user input),we will show all distinct solutions to the N-quee
 
 Utilized Recursion and BackTracking in the design of this algorithm for optimal performance.
 
-[Project Link](https://n-queen-3v3.netlify.app)
+                       [Project Link](https://n-queen-3v3.netlify.app)
